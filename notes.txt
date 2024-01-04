@@ -1,0 +1,23 @@
+Create a currency list variable, because there's no use writing out all the options twice
+$valutaList = [
+  "key-value" => "actual value"
+  "USD" => "U.S. Dollars",
+  "EUR" => "Euros",
+  "AUD" => "Australian Dollars"
+]
+(associative array)
+
+php loop -> 
+<?php foreach ($valutaList as $key => $option) : ?>
+  <option value="<?= $key?>"> <?= $option ?> </option>
+<?php endforeach; ?> 
+
+--> everything between the opening and closing foreach is put in the loop
+
+php echo = "=" 
+so '?php echo' => '?=' 
+
+echo "<pre>";       --> shows array type data in a structured way
+var_dump($_POST);
+echo "</pre>";
+

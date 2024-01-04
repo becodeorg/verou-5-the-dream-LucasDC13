@@ -1,0 +1,49 @@
+#currencyForm {
+  border: 3px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: min-content;
+  margin: 20px auto;
+}
+
+.optionWrapper, .amountWrapper {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  margin: 10px;
+}
+
+.amountWrapper {
+  width: 80%;
+}
+
+#currencyAmount {
+  width: 150px;
+}
+
+#currencyFrom, #currencyTo {
+  margin: 0px 0px;
+}
+.currencySwap {
+  background-image: url("./swaparrows.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#submitBtn {
+  width: fit-content;
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 0px;
+}
